@@ -1,0 +1,31 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - _anaconda_depends
+  - python=3.11
+  - setuptools
+  - pip
+  - wheel
+  - anaconda-anon-usage
+  - anaconda-catalogs
+  - anaconda-client
+  - anaconda-project
+  - anaconda-navigator=2.6.5
+  - conda[version='>=23.7']
+  - conda-build
+  - conda-content-trust
+  - conda-libmamba-solver
+  - conda-pack
+  - conda-package-handling
+  - conda-package-streaming
+  - conda-token
+  - conda-verify
+  - menuinst[version='>=1.0.0a0,<2.0.0']
+  - console_shortcut
+  - powershell_shortcut
+  - anaconda-toolbox
+  - jupyter_client
+  - matplotlib
+  - numpy
+prefix: C:\Users\bryan\anaconda3
